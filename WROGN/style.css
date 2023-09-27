@@ -1,0 +1,279 @@
+
+/* starting will use universal selector*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* section 1 block */
+.section-1{
+    display: flex;
+    width: 30%;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.pic{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.search input{
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 300px;
+    cursor: pointer;   
+}
+
+.searchbox{
+    display: flex;
+    height: 50px;
+    margin-left: 10px;  
+    border-radius: 5px;
+}
+
+.homebutton{
+    display: flex;
+    margin-left: 15px;
+    height: 25px;
+}
+
+.account{
+    display: flex;
+    margin-left: 15px;
+}
+ 
+.bag{
+    display: flex;
+    margin-left: 15px;
+}
+
+.bags{
+    margin-left: 15px;
+}
+
+
+/* secton 2 */
+.section-2 ul{
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+ul,li{
+    margin-left: 25px;
+    list-style-type: none;
+    padding-bottom: 8px;
+    
+}
+
+.newli{
+    color: red;
+    cursor: pointer;
+}
+    
+.ul,li:hover{
+    background-color:black;
+    color: white;
+}
+
+header{
+    position:sticky;
+    top: 0PX;
+    background-color:white;
+}
+
+
+/* SECTION 3 */
+
+.firstpic{
+    padding-top:5px;
+    width: 100%;
+    scroll-behavior: auto;
+    overflow-x: hidden;
+}
+
+/* SECTION 3 */
+
+.paragraph{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20PX;
+}
+
+.top{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    height: 300px;
+}
+
+.top img{
+    width: 200px;
+    height: 250px;
+    margin-left: 11px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+
+
+/* SECTION 4 */
+.trending{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: center;
+    height: 300px;
+}
+
+.trending img{
+    width: 200px;
+    height: 220px;
+    margin-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+
+ }
+
+    
+    /* SECTION 5 */
+
+    .toppic{
+        display: flex;
+        height: 250px;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .toppic img{
+        width: 200px;
+        height: 220px;
+        margin-left: 40px;
+        padding-right: 10px;
+    }
+  
+    /* SECTION 6 */
+.wwrogn{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.many{
+    text-align: center;
+    height: 25px;
+}
+.video{
+margin-bottom: 15px;
+width: 75%;
+height: 500px;
+}
+ .home{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.back{
+    width: 75%;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+.like{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wear{
+    width: 75%;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+ .button{
+    margin-left: 45%;
+    padding: 10px 32px;
+}
+
+ /* SECTION 7 */
+.section-7{
+    height: 30px;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.cashicon{
+    cursor: pointer;
+    display: flex;
+    margin-left: 180px;
+}
+.cash{
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.freeicon{
+    display: flex;
+    margin-left: 310px;
+}
+.free{
+    display: flex;
+    margin-left: 10px;
+}
+
+.eicon{
+    display: flex;
+    margin-left: 270px;
+}
+.easy{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+/* section 8*/
+.section-8{
+    width: 100;
+    background-color:whitesmoke;
+    height: 250px;
+    margin-top: 15px;
+    cursor: auto;
+    cursor: pointer;
+    display: flex;
+}
+.part-1{
+    width: 33%;
+    text-align: center;
+}
+.part-2{
+    font-size: small;
+    width: 33%;
+    text-align:center;
+}
+
+.part-3{
+    display: flex;
+    text-align: center;
+    width: 33%;
+}
+
+.final{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
